@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autitalks</title>
+  <script type="module" crossorigin src="/assets/main-D8T-Iyo8.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-BqxCgQnW.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar bg-base-100 shadow-sm">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li><a href="index.html">الصفحة الرئيسية</a></li>
+                    <li><a href="resource_library.html">مكتبة الموارد</a></li>
+                    <li><a href="periodic_assessment.html">التقييم الدوري</a></li>
+                    <li><a href="message.html">مركز الرسائل</a></li>
+                    <li><a href="about.html">حول المنصة / األسئلة الشائعة</a></li>
+                </ul>
+            </div>
+            <a href="index.html" class="btn btn-ghost text-xl">Autitalks</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="resource_library.html">مكتبة الموارد</a></li>
+                <li><a href="periodic_assessment.html">التقييم الدوري</a></li>
+                <li><a href="message.html">مركز الرسائل</a></li>
+                <li><a href="about.html">حول المنصة / األسئلة الشائعة</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end gap-1">
+            <a href="login.html" class="btn btn-primary">تسجيل الدخول</a>
+            <a href="signup.html" class="btn btn-secondary">انشاء حساب</a>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <h1 class="text-2xl font-bold p-10">من فضلك أجب عن هذه األسئلة الخاصة بطفلك. يرجى الوضع فى االعتبار كيف يتصرف
+        طفلك عادة. اذا كنت قد شاهدت طفلك يقوم بهذالك.السلوك عدة مرات،</h1>
+    <div class="flex flex-col gap-10 mx-10 mb-10">
+        <!-- q1 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">١. لو أشرتَ إلى شيء في الغرفة، هل ينظر طفلك إليه؟
+                (مثال: إذا أشرت إلى لعبة أو حيوان، هل ينظر طفلك إلى اللعبة أو الحيوان؟)
+            </h2>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-1" class="radio radio-primary" />
+                <label for="radio-1">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-1" class="radio radio-primary" />
+                <label for="radio-1">لا</label>
+            </div>
+        </div>
+
+        <!-- q2 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">٢. هل تساءلتَ أبدًا إذا كان طفلك من المحتمل أن يكون أصمًا؟
+            </h2>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-2" class="radio radio-primary" />
+                <label for="radio-2">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-2" class="radio radio-primary" />
+                <label for="radio-2">لا</label>
+            </div>
+        </div>
+
+        <!-- q3 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">٣. هل يتظاهر طفلك في اللعب أو يلعب لعبًا تخيليًا؟
+                (مثال: يتظاهر بأنه يشرب من كوب فارغ، يتظاهر بأنه يتحدث في الهاتف، أو يُطعم دمية؟)
+            </h2>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-3" class="radio radio-primary" />
+                <label for="radio-3">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-3" class="radio radio-primary" />
+                <label for="radio-3">لا</label>
+            </div>
+        </div>
+
+        <!-- q4 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">٤. هل يحب طفلك التسلّق أو التشبّث بالأشياء؟
+                (مثال: الأثاث، أدوات الملعب، أو السلالم؟)
+            </h2>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-4" class="radio radio-primary" />
+                <label for="radio-4">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-4" class="radio radio-primary" />
+                <label for="radio-4">لا</label>
+            </div>
+        </div>
+
+        <!-- q5 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ٥. هل يفعل طفلك حركات غير عادية بأصابعه بالقرب من عينيه؟
+                (مثال: هل يهز طفلك أصابعه بالقرب من عينيه؟)
+
+            </h2>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-5" class="radio radio-primary" />
+                <label for="radio-5">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-5" class="radio radio-primary" />
+                <label for="radio-5">لا</label>
+            </div>
+        </div>
+
+        <!-- q6 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                . هل يشير طفلك بإصبع واحد ليطلب شيئًا ما أو ليحصل على مساعدة؟
+                (مثال: يشير لطعام أو لعبة لا يستطيع الوصول إليها؟)
+
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-6" class="radio radio-primary" />
+                <label for="radio-6">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-6" class="radio radio-primary" />
+                <label for="radio-6">لا</label>
+            </div>
+        </div>
+
+        <!-- q7 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ٧. هل يشير طفلك بإصبع واحد ليريك شيئًا يثير الاهتمام؟
+                (مثال: يشير إلى طائرة في السماء أو شاحنة كبيرة على الطريق؟)
+
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-7" class="radio radio-primary" />
+                <label for="radio-7">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-7" class="radio radio-primary" />
+                <label for="radio-7">لا</label>
+            </div>
+        </div>
+
+        <!-- q8 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ٨. هل يهتم طفلك بالأطفال الآخرين؟
+                (مثال: هل يراقبهم، يبتسم لهم، أو يذهب إليهم؟)
+
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-8" class="radio radio-primary" />
+                <label for="radio-8">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-8" class="radio radio-primary" />
+                <label for="radio-8">لا</label>
+            </div>
+        </div>
+
+        <!-- q9 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ٩. هل يُريك طفلك الأشياء بأن يجلبها لك أو يحملها لكي تراها؟
+                (ليس من أجل المساعدة، بل لمجرد المشاركة – مثال: زهرة، دمية، شاحنة لعبة؟)
+
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-9" class="radio radio-primary" />
+                <label for="radio-9">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-9" class="radio radio-primary" />
+                <label for="radio-9">لا</label>
+            </div>
+        </div>
+
+        <!-- q10 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٠. هل يستجيب طفلك عندما تناديه باسمه؟
+                (مثال: ينظر إليك، يتكلم أو يغمغم، أو يتوقف عما يفعله عند مناداته؟)
+
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-10" class="radio radio-primary" />
+                <label for="radio-10">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-10" class="radio radio-primary" />
+                <label for="radio-10">لا</label>
+            </div>
+        </div>
+
+        <!-- q11 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١١.عندما تبتسم لطفلك، هل يرد لك الابتسامة؟
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-11" class="radio radio-primary" />
+                <label for="radio-11">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-11" class="radio radio-primary" />
+                <label for="radio-11">لا</label>
+            </div>
+        </div>
+
+        <!-- q12 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٢. هل ينزعج طفلك من الضوضاء اليومية؟
+                (مثال: هل يصرخ أو يبكي عند سماع صوت المكنسة أو موسيقى عالية؟)
+
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-12" class="radio radio-primary" />
+                <label for="radio-12">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-12" class="radio radio-primary" />
+                <label for="radio-12">لا</label>
+            </div>
+        </div>
+
+        <!-- q13 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٣. هل يمشي طفلك؟
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-13" class="radio radio-primary" />
+                <label for="radio-13">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-13" class="radio radio-primary" />
+                <label for="radio-13">لا</label>
+            </div>
+        </div>
+
+        <!-- q14 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٤. هل ينظر طفلك في عينيك أثناء الحديث معه أو اللعب معه أو تغيير ملابسه؟
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-14" class="radio radio-primary" />
+                <label for="radio-14">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-14" class="radio radio-primary" />
+                <label for="radio-14">لا</label>
+            </div>
+        </div>
+
+        <!-- q15 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٥. هل يحاول طفلك أن يقلّد ما تفعل؟
+                (مثال: يلوّح "باي باي"، يصفق، أو يُصدر أصواتًا مضحكة عندما تفعل ذلك؟)
+
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-15" class="radio radio-primary" />
+                <label for="radio-15">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-15" class="radio radio-primary" />
+                <label for="radio-15">لا</label>
+            </div>
+        </div>
+
+        <!-- q16 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٦. إذا أدرتَ رأسك للنظر إلى شيء ما، هل يلتفت طفلك ليرى ما الذي تنظر إليه؟
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-16" class="radio radio-primary" />
+                <label for="radio-16">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-16" class="radio radio-primary" />
+                <label for="radio-16">لا</label>
+            </div>
+        </div>
+
+        <!-- q17 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٧. هل يحاول طفلك أن يجعلك تشاهده؟
+                (مثال: ينظر إليك لتُثني عليه، أو يقول "انظر" أو "شاهدني"؟)
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-17" class="radio radio-primary" />
+                <label for="radio-17">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-17" class="radio radio-primary" />
+                <label for="radio-17">لا</label>
+            </div>
+        </div>
+
+        <!-- q18 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٨. هل يفهم طفلك عندما تقول له أن يفعل شيئًا؟ (مثال: إذا لم تُشر، هل يستطيع فهم "ضع الكتاب على الكرسي"
+                أو "أحضر لي البطانية"؟)
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-18" class="radio radio-primary" />
+                <label for="radio-18">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-18" class="radio radio-primary" />
+                <label for="radio-18">لا</label>
+            </div>
+        </div>
+
+        <!-- q19 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ١٩. إذا حدث شيء جديد، هل ينظر طفلك إلى وجهك ليرى كيف تشعر حياله؟
+                (مثال: إذا سمع صوتًا غريبًا أو رأى لعبة جديدة، هل ينظر إلى وجهك؟)
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-19" class="radio radio-primary" />
+                <label for="radio-19">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-19" class="radio radio-primary" />
+                <label for="radio-19">لا</label>
+            </div>
+        </div>
+
+        <!-- q20 -->
+        <div class="flex flex-col gap-2">
+            <h2 class="text-md font-bold">
+                ٢٠. هل يحب طفلك الأنشطة الحركية؟
+                (مثال: أن تأرجحه أو يقفز على ركبتك؟)
+            </h2>
+
+            <div class="flex gap-2">
+                <input type="radio" name="radio-20" class="radio radio-primary" />
+                <label for="radio-20">نعم</label>
+            </div>
+            <div class="flex gap-2">
+                <input type="radio" name="radio-20" class="radio radio-primary" />
+                <label for="radio-20">لا</label>
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-10">
+            <a href="periodic_assessment.html" class="btn btn-primary btn-lg w-48">حفظ</a>
+        </div>
+    </div>
+
+    <!-- footer start  -->
+    <footer class="footer footer-horizontal footer-center bg-secondary text-base-content rounded p-10">
+        <nav class="grid grid-flow-col gap-4">
+            <a href="index.html" class="link link-hover">الصفحة الرئيسية</a>
+            <a href="resource_library.html" class="link link-hover">مكتبة الموارد</a>
+            <a href="periodic_assessment.html" class="link link-hover">التقييم الدوري</a>
+            <a href="about.html" class="link link-hover">حول المنصة / األسئلة الشائعة</a>
+        </nav>
+        <nav>
+            <div class="grid grid-flow-col gap-4">
+                <a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                        </path>
+                    </svg>
+                </a>
+                <a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                        </path>
+                    </svg>
+                </a>
+                <a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+        <aside>
+            <p>جميع الحقوق محفوظة © 2025 Autitalks</p>
+        </aside>
+    </footer>
+    <!-- footer end  -->
+</body>
+
+</html>
